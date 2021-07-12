@@ -1,0 +1,75 @@
+@import "https://fonts.googleapis.com/css2?family=Muli:wght@400;700&display=swap";
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+body {
+    background-color: #303236;
+    font-family: "Mulish", sans-serif;
+}
+
+.component-filter-search {
+    margin: 170px auto;
+    background-color: #3d3f43;
+    border-radius: 5px;
+    height: 68px;
+    width: 656px;
+    position: relative;
+}
+form {
+    display: flex;
+}
+
+input {
+    width: 161px;
+    height: 20px;
+    margin-left: 63px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    background-color: #3d3f43;
+    border: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+img {
+    position: absolute;
+    top: 20px;
+    bottom: 20px;
+    left: 25px;
+}
+ul {
+    display: flex;
+    width: 90px;
+    margin-left: 91px;
+}
+.text {
+    display: block;
+    height: 40px;
+    width: 105px;
+    font-size: 16px;
+    color: white;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    transition: 500ms background-color;
+    transition: 500ms color;
+    /* transform: 100ms color; */
+}
+label input {
+    display: none;
+}
+
+label input:checked + .text {
+    background-color: #303236;
+    width: 110px;
+    border-radius: 20px;
+    color: #2ccdea;
+}
