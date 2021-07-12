@@ -1,0 +1,71 @@
+@import "https://fonts.googleapis.com/css2?family=Muli:wght@400;700&display=swap";
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+body {
+    background-color: #303236;
+    font-family: "Mulish", sans-serif;
+}
+
+input {
+    height: 50px;
+    width: 287px;
+    background-color: #303236;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5);
+}
+input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+.component-container input {
+    padding-left: 53px;
+    margin-bottom: 30px;
+}
+.component-container {
+    background: #3d3f43;
+    border-radius: 15px;
+    padding: 40px 45px;
+    width: 400px;
+    height: 400px;
+    font-size: 16px;
+    margin: 100px auto;
+}
+
+.component-search form {
+    position: relative;
+    /* background-color: red; */
+}
+form img {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+h6 {
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+li {
+    margin-top: 15px;
+}
+li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover {
+    color: #2ccdea;
+    font-weight: bold;
+}
+.active {
+    color: #2ccdea;
+    font-weight: bold;
+}
