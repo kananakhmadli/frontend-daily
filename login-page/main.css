@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  border: 0px; }
+
+a {
+  text-decoration: none; }
+
+body {
+  font-size: 14px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  background-color: #ebeef2; }
+
+.container {
+  height: 347px;
+  width: 438px;
+  margin: 110px auto;
+  border-radius: 15px;
+  background-color: #88922b;
+  padding: 45px;
+  transition: 400ms ease-in-out; }
+
+.container:hover {
+  transform: scale(1.03);
+  box-shadow: 2px 2px 15px #8693a4; }
+
+.login-header {
+  font-size: 28px;
+  color: #171922;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 35px; }
+
+.login-content {
+  display: flex;
+  flex-direction: column; }
+
+input {
+  background-color: #ffffff;
+  height: 40px;
+  margin-bottom: 15px;
+  padding-left: 30px;
+  color: #171922;
+  font-weight: 700;
+  border-radius: 10px;
+  outline: none; }
+
+input::placeholder {
+  color: #171922; }
+
+.login-footer {
+  display: flex;
+  justify-content: center; }
+
+button {
+  width: 170px;
+  height: 40px;
+  background-color: #171922;
+  color: white;
+  font-weight: 600;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-bottom: 14px;
+  transition: 400ms ease-in-out; }
+
+button:hover {
+  transform: scale(1.1); }
+
+.bottom-container {
+  text-align: center;
+  color: #171922;
+  height: 58px;
+  font-weight: 600; }
+
+.bottom-container a {
+  color: #b33838;
+  font-weight: 700; }
+
+a:hover {
+  color: #851869; }
