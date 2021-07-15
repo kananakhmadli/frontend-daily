@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;900&display=swap");
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    -webkit-overflow-scrolling: touch;
+    font-family: "Mulish", sans-serif;
+}
+
+body {
+    background-color: #ebeef2;
+}
+.component-price {
+    max-width: 930px;
+    margin: 110px auto;
+    width: 90%;
+}
+.component-price .title {
+    display: flex;
+}
+.component-price .packages {
+    display: flex;
+}
+.package {
+    width: 438px;
+    height: 447px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding-top: 45px;
+    padding-left: 45px;
+    padding-bottom: 45px;
+    padding: 45px;
+    transition: 500ms ease-in-out;
+}
+.packages > div {
+    margin-right: 40px;
+}
+
+.package h5 {
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 35px;
+    color: #171922;
+    margin-bottom: 35px;
+}
+.price-info .price {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #171922;
+    line-height: 22px;
+}
+.price-info .description {
+    color: #6f6f75;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.package p {
+    width: 348px;
+    height: 100px;
+    font-size: 16px;
+    font-weight: 600px;
+    line-height: 25px;
+    color: #171922;
+    opacity: 71.39%;
+    margin-bottom: 35px;
+    word-break: break-all;
+}
+.package .button {
+    display: inline-block;
+    width: 348px;
+    height: 61px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    color: #171922;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 61px;
+    border: 1px solid #171922;
+    transition: 700ms background-color, 600ms color;
+}
+.package:hover > .button {
+    background-color: #171922;
+    color: white;
+}
+.package:hover {
+    transform: scale(1.04);
+    box-shadow: 2px 2px 19px #8693A4;
+}
+.title h2 {
+    font-size: 42px;
+    color: #171922;
+    font-weight: 900;
+    margin-bottom: 55px;
+    line-height: 53px;
+    margin-right: 342px;
+}
+.title label {
+    width: 212px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #d4d9e0;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+span {
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 16px;
+    color: #171922;
+    font-weight: bold;
+    opacity: 70.06%;
+    cursor: pointer;
+}
+.span-2 {
+    border-radius: 25px;
+    background-color: #ffffff;
+    opacity: 100%;
+}
