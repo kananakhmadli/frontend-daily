@@ -23,3 +23,9 @@ You can find them by swiching the branches
 ![4](https://user-images.githubusercontent.com/55322079/125600325-1ceeb167-1e66-49c0-b615-48acb6ae4373.jpg)
 
 [Source Files](https://www.uidesigndaily.com/posts/sketch-support-page-components-links-day-1181)
+
+### Day 5 - Pricing UI Design
+
+![Screenshot (378)](https://user-images.githubusercontent.com/55322079/125769594-acb6291f-df95-4fae-b344-012a983e735c.png)
+
+[Source Files](https://www.uidesigndaily.com/posts/sketch-pricing-table-toggle-black-&-white-switch-day-1070)
