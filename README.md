@@ -29,3 +29,9 @@ You can find them by swiching the branches
 ![Screenshot (378)](https://user-images.githubusercontent.com/55322079/125769594-acb6291f-df95-4fae-b344-012a983e735c.png)
 
 [Source Files](https://www.uidesigndaily.com/posts/sketch-pricing-table-toggle-black-&-white-switch-day-1070)
+
+### Day 6 - Lagin Page
+
+![Screenshot (381)](https://user-images.githubusercontent.com/55322079/125852550-13d28da6-e020-42e1-997c-ce910148e3f9.png)
+
+[Source Files](#)
