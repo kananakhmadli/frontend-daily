@@ -35,3 +35,9 @@ You can find them by swiching the branches
 ![Screenshot (381)](https://user-images.githubusercontent.com/55322079/125852550-13d28da6-e020-42e1-997c-ce910148e3f9.png)
 
 [Source Files](#)
+
+### Day 7 - Product Card
+
+![Screenshot (386)](https://user-images.githubusercontent.com/55322079/126048038-c4c3ffd9-1947-4296-ad7f-757d7ef7c1d4.png)
+
+[Source Files](#)
