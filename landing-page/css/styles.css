@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+  font-family: "Mulish", sans-serif;
+}
+
+:focus {
+  outline: 0;
+}
+
+body {
+  background-color: #F8F9FB;
+}
+
+#main-nav {
+  background-color: #032f3e;
+  width: 100%;
+}
+
+#main-nav ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+#main-nav a {
+  color: #f8f9fb;
+}
+
+#main-nav a:hover {
+  color: wheat;
+}
+
+#main-nav li {
+  margin: 20px;
+}
+
+section h1 {
+  font-size: 24px;
+  color: #032f3e;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+.lead-banner {
+  width: 100%;
+  position: relative;
+  color: white;
+  font-size: 46px;
+}
+
+.lead-banner .banner-content {
+  width: 100%;
+  position: absolute;
+  top: 50px;
+}
+
+.lead-banner img {
+  width: 100%;
+}
+
+.lead-banner span {
+  display: block;
+  text-align: right;
+  text-transform: uppercase;
+  margin-right: 20px;
+}
+
+.lead-banner .sub-title {
+  font-weight: bold;
+}
+
+.lessons-banner {
+  width: 100%;
+  position: relative;
+  color: white;
+  font-size: 46px;
+}
+
+.lessons-banner .banner-content {
+  width: 100%;
+  position: absolute;
+  top: 50px;
+}
+
+.lessons-banner img {
+  width: 100%;
+}
+
+.lessons-banner span {
+  display: block;
+  text-align: right;
+  text-transform: uppercase;
+  margin-right: 20px;
+}
+
+.lessons-banner .sub-title {
+  font-weight: bold;
+}
+
+.lessons-banner span {
+  text-align: left;
+  margin: 20px;
+}
+
+.lessons-banner li {
+  max-width: 500px;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 60px 20px;
+}
+
+#services {
+  margin-bottom: 60px;
+}
+
+#services ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+}
+
+#services li {
+  display: block;
+}
+
+#services li img {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#services li a {
+  display: block;
+  width: 100%;
+  color: #032f3e;
+  font-weight: bold;
+  text-align: center;
+}
+
+#services li a:hover {
+  color: brown;
+}
+
+#projects {
+  padding-left: 50px;
+}
+
+#projects ul {
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+#projects li {
+  width: 60%;
+  margin: 20px;
+}
+/*# sourceMappingURL=styles.css.map */
