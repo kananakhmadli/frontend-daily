@@ -1,0 +1,116 @@
+@import "./reset";
+
+$deepBlue: #032f3e;
+$sectionHeading: 24px;
+$offWhite: #f8f9fb;
+$bannerHeading: 46px;
+@mixin banner {
+    width: 100%;
+    position: relative;
+    color: white;
+    font-size: $bannerHeading;
+    .banner-content {
+        width: 100%;
+        position: absolute;
+        top: 50px;
+    }
+    img {
+        width: 100%;
+    }
+    span {
+        display: block;
+        text-align: right;
+        text-transform: uppercase;
+        margin-right: 20px;
+    }
+    .sub-title {
+        font-weight: bold;
+    }
+}
+#main-nav {
+    background-color: $deepBlue;
+    width: 100%;
+
+    ul {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+    a {
+        color: $offWhite;
+        &:hover {
+            color: wheat;
+        }
+    }
+    li {
+        margin: 20px;
+    }
+}
+section h1 {
+    font-size: $sectionHeading;
+    color: $deepBlue;
+    font-weight: bold;
+    padding-left: 20px;
+}
+.lead-banner {
+    @include banner();
+}
+.lessons-banner {
+    @include banner();
+    span {
+        text-align: left;
+        margin: 20px;
+    }
+    li {
+        max-width: 500px;
+        font-size: 20px;
+        text-transform: uppercase;
+        margin: 60px 20px;
+    }
+}
+#services {
+    margin-bottom: 60px;
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: center;
+    }
+    li {
+        display: block;
+        img {
+            display: block;
+            width: 100%;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        a {
+            display: block;
+            width: 100%;
+            color: $deepBlue;
+            font-weight: bold;
+            text-align: center;
+            &:hover {
+                color: brown;
+            }
+        }
+    }
+}
+
+#projects {
+    padding-left: 50px;
+    ul {
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    li {
+        width: 60%;
+        margin: 20px;
+    }
+}
